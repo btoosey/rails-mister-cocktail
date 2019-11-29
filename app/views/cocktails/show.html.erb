@@ -11,5 +11,8 @@
 <% end %>
 </ul>
 
-<%= link_to 'Add a Dose', new_cocktail_dose_path(@cocktail) %>
-
+<%= simple_form_for([@cocktail, @dose]) do |f| %>
+  <%= f.input :description %>
+  <%= f.association :ingredient %>
+  <%= f.submit "Submit" %>
+<% end %>
