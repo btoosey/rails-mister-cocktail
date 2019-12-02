@@ -1,0 +1,29 @@
+.add-cocktail {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 360px;
+  font-size: 204px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 360px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 16px;
+  box-shadow: 0 0 16px rgba(0,0,0,0.5);
+}
+
+.cocktail-grid {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 240px 240px 240px;
+  grid-gap: 32px;
+}

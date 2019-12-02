@@ -10,7 +10,13 @@ Cocktail.destroy_all
 Dose.destroy_all
 Ingredient.destroy_all
 
-bloody_mary = Cocktail.create(name: "Bloody Mary")
-Ingredient.create(name: "Lemon")
+Ingredient.create(name: "Lime Slices")
 Ingredient.create(name: "Ice cubes")
 Ingredient.create(name: "Mint leaves")
+Ingredient.create(name: "White Rum")
+Ingredient.create(name: "Soda Water")
+Ingredient.create(name: "Cranberry Juice")
+Ingredient.create(name: "Peach Schnapps")
+Ingredient.create(name: "Vodka")
+Ingredient.create(name: "Orange Juice")
+Ingredient.create(name: "Tomato Juice")
